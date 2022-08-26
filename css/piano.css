@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.p_piano {
+  display: flex;
+  background: rgba(255, 255, 255, 0.382);
+  text-align: center;
+  line-height: 100vh;
+}
+button {
+  vertical-align: middle;
+  width: 100px;
+  height: 300px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.536);
+}
+.black {
+  width: 60px;
+  height: 230px;
+  background-color: black;
+  color: white;
+}
+.btnDos {
+  width: 100%;
+}

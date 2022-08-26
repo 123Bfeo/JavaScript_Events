@@ -1,0 +1,9 @@
+Bienvenidos..!
+Este es un proyecto sencillo, sin uso de librerías.
+La idea de desarrollar este proyecto es para afianzar
+los conocimientos en eventos manejados por JavaScript.
+
+Herramientas Utilizadas:
+--JavaScript
+--HTML
+--CSS

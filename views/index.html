@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <section>
+      <p class="title">THIS IS MY PIANO</p>
+      <div class="p_piano">
+        <button data-note="DO" data-key="1">DO-1</button>
+        <button class="black" data-note="DO#" data-key="2">DO-#</button>
+        <button data-note="RE" data-key="3">RE-2</button>
+        <button class="black" data-note="RE#" data-key="4">RE-#</button>
+        <button data-note="MI" data-key="5">MI-3</button>
+        <button class="black" data-note="MI#" data-key="6">MI-#</button>
+        <button data-note="FA" data-key="7">FA-4</button>
+        <button class="black" data-note="FA#" data-key="8">FA-#</button>
+        <button data-note="SOL" data-key="9">SOL-5</button>
+        <button class="black" data-note="SOL#" data-key="10">SOL-#</button>
+        <button data-note="LA" data-key="11">LA-6</button>
+        <button class="black" data-note="LA#" data-key="12">LA-#</button>
+        <button data-note="SI" data-key="13">SI-7</button>
+      </div>
+      <audio id="audioDO" src="../src/notas_Music/Do.wav"></audio>
+      <audio id="audioRE" src="../src/notas_Music/Re.wav"></audio>
+      <audio id="audioMI" src="../src/notas_Music/Mi.wav"></audio>
+      <audio id="audioFA" src="../src/notas_Music/Fa.wav"></audio>
+      <audio id="audioSOL" src="../src/notas_Music/Sol.wav"></audio>
+      <audio id="audioLA" src="../src/notas_Music/La.wav"></audio>
+      <audio id="audioSI" src="../src/notas_Music/Si.wav"></audio>
+
+      <audio id="audioDO#" src="../src/notas_Music/Do-stretched.wav"></audio>
+      <audio id="audioRE#" src="../src/notas_Music/Re-stretched.wav"></audio>
+      <audio id="audioMI#" src="../src/notas_Music/Mi-stretched.wav"></audio>
+      <audio id="audioFA#" src="../src/notas_Music/Fa-stretched.wav"></audio>
+      <audio id="audioSOL#" src="../src/notas_Music/Sol-stretched.wav"></audio>
+      <audio id="audioLA#" src="../src/notas_Music/La-stretched.wav"></audio>
+      <audio id="audioSI#" src="../src/notas_Music/Si-stretched.wav"></audio>
+    </section>
+
+    <script src="../Javascript/piano.js"></script>
+  </body>
+</html>
